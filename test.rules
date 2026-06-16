@@ -15,7 +15,7 @@ alert tls any any -> any any (msg:"openai.com HTTPS access"; tls.sni; content:"o
 alert tls any any -> any any (msg:"netflix.com HTTPS access"; tls.sni; content:"netflix.com"; sid:10014; rev:1;)
 alert tls any any -> any any (msg:"instagram.com HTTPS access"; tls.sni; content:"instagram.com"; sid:10015; rev:1;)
 alert tls any any -> any any (msg:"facebook.com HTTPS access"; tls.sni; content:"facebook.com"; sid:10016; rev:1;)
-alert tls any any -> any any (msg:"x.com HTTPS access"; tls.sni; content:"x.com"; sid:10017; rev:1;)
+alert tls any any -> any any (msg:"discord.com HTTPS access"; tls.sni; content:"discord.com"; sid:10017; rev:1;)
 alert tls any any -> any any (msg:"linkedin.com HTTPS access"; tls.sni; content:"linkedin.com"; sid:10018; rev:1;)
 alert tls any any -> any any (msg:"yahoo.com HTTPS access"; tls.sni; content:"yahoo.com"; sid:10019; rev:1;)
 alert tls any any -> any any (msg:"bing.com HTTPS access"; tls.sni; content:"bing.com"; sid:10020; rev:1;)
